@@ -32,7 +32,7 @@ const MemoryGame = ({
     }
   
     if (totalCards % matchCount !== 0) {
-      throw new Error(`Cannot divide ${totalCards} over ${matchCard}`);
+      throw new Error(`Cannot divide ${totalCards} over ${matchCount}`);
     }
   
     const whenFlipped = (index) => {
