@@ -114,7 +114,7 @@ const MemoryGame = ({
           })}
         </div>
         {gameEnded && (
-          <button onClick={resetGame}>Play Again</button>
+          <button onClick={resetGame} className='button'>Play Again</button>
         )}
       </div>
   

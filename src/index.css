@@ -23,6 +23,11 @@ body {
   border: 2px solid rgb(5, 39, 69);
   border-radius: 8px;
   padding: 8px;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .card {
@@ -45,5 +50,23 @@ body {
 .card--revealed {
   background: transparent;
   border-color: transparent;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(5, 39, 69);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: rgb(3, 28, 49);
 }
 
